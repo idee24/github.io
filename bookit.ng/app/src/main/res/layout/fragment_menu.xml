@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.MenuFragment">
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:background="@mipmap/menu_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <include layout="@layout/profile_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sixteen_dp"
+            android:text="@string/explore_your_deals_text"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty_four_dp"
+            android:layout_marginEnd="@dimen/twenty_four_dp"
+            app:cardCornerRadius="@dimen/four_dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/flightsLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/forty_dp"
+                    android:layout_marginTop="@dimen/forty_dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/flightsIcon"
+                        android:layout_width="@dimen/eighty_dp"
+                        android:layout_height="@dimen/eighty_dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/flights_icon_text"
+                        android:src="@drawable/flights_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flightsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/flights_text"
+                        android:textColor="@android:color/black" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/hotelsLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/forty_dp"
+                    android:layout_marginEnd="@dimen/forty_dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/hotelsIcon"
+                        android:layout_width="@dimen/eighty_dp"
+                        android:layout_height="@dimen/eighty_dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/hotels_text"
+                        android:src="@drawable/hotels_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/hotelsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/black"
+                        android:text="@string/hotels_text" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/vacationsLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/forty_dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/flightsLayout">
+
+                    <ImageView
+                        android:id="@+id/vacationsIcon"
+                        android:layout_width="@dimen/eighty_dp"
+                        android:layout_height="@dimen/eighty_dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/vacations_icon_text"
+                        android:src="@drawable/vacations_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/vacationsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/black"
+                        android:text="@string/vacations_text" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/busesLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/forty_dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/hotelsLayout">
+
+                    <ImageView
+                        android:id="@+id/busesIcon"
+                        android:layout_width="@dimen/eighty_dp"
+                        android:layout_height="@dimen/eighty_dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/bus_icon_text"
+                        android:src="@drawable/buses_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/busesIcon"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/black"
+                        android:text="@string/buses_text" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/entertainmentLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/forty_dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/vacationsLayout">
+
+                    <ImageView
+                        android:id="@+id/entertainmentIcon"
+                        android:layout_width="@dimen/eighty_dp"
+                        android:layout_height="@dimen/eighty_dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/entertainment_icon_text"
+                        android:src="@drawable/entertainment_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/entertainmentIcon"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@android:color/black"
+                        android:text="@string/entertainment_text" />
+
+                </RelativeLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

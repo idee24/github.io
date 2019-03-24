@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/hollow_hint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/serviceIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/emedic_logo"/>
+        <TextView
+            android:id="@+id/serviceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Home Consultation"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/serviceIcon"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

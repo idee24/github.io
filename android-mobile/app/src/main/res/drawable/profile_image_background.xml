@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size android:width="@dimen/profile_image_size" android:height="@dimen/profile_image_size" />
+    <corners android:radius="@dimen/profile_image_size" />
+    <stroke android:width="3dp" android:color="@color/white"/>
+</shape>

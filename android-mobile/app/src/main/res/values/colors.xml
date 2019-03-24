@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4C96C8</color>
+    <color name="colorPrimaryDark">#0868BA</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blueNavBar">#36748D</color>
+    <color name="emedic_text_color">#BEEEF8</color>
+    <color name="text_field_color">#DCDFE2</color>
+    <color name="text_hint_color">#A0B2C1</color>
+    <color name="text_color_one">#E2F2F8</color>
+    <color name="text_color_two">#C4E6F0</color>
+    <color name="text_color_three">#FDFDFD</color>
+    <color name="button_background_color">#8DC4DB</color>
+    <color name="white">#ffffff</color>
+    <color name="hollow_hint">#ccA0B2C1</color>
+    <color name="error">#ff0000</color>
+    <color name="loader_background_color">#cc000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

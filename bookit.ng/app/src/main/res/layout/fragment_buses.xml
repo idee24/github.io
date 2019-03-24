@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.buses.BusesFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hundred_dp"
+            android:background="@mipmap/header_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/sixteen_dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backIcon"
+                android:layout_width="@dimen/twenty_dp"
+                android:layout_height="@dimen/twenty_dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/eight_dp"
+                android:contentDescription="@string/back_icon_text"
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/search_bus_text"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_size_twenty"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageView
+                android:layout_width="@dimen/twenty_four_dp"
+                android:layout_height="@dimen/twenty_four_dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/eight_dp"
+                android:contentDescription="@string/profile_icon_text"
+                android:src="@drawable/profile_icon" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:layout_marginTop="@dimen/twenty_four_dp"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/eight_dp"
+                app:cardCornerRadius="@dimen/eight_dp"
+                android:layout_height="@dimen/hundred_and_fifty_dp">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/route_icon"
+                        android:layout_width="@dimen/twenty_four_dp"
+                        android:layout_height="@dimen/hundred_dp"
+                        android:layout_marginStart="@dimen/twenty_four_dp"
+                        android:contentDescription="@string/route_icon"
+                        android:src="@drawable/route_a_b_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/sixteen_dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toEndOf="@+id/route_icon"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/departure_from_text"
+                            android:textAllCaps="false"
+                            android:textColor="@color/nav_ash"
+                            android:textSize="@dimen/font_size_twelve" />
+
+                        <TextView
+                            android:id="@+id/departureTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/chevron_down"
+                            android:drawablePadding="@dimen/sixteen_dp"
+                            android:text="@string/location_place_holder"
+                            android:textAllCaps="false"
+                            android:textColor="@color/dark_text"
+                            android:textSize="@dimen/eighteen_font_size" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/sixteen_dp"
+                        android:layout_marginBottom="@dimen/sixteen_dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/route_icon">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/arrival_at_text"
+                            android:textAllCaps="false"
+                            android:textColor="@color/nav_ash"
+                            android:textSize="@dimen/font_size_twelve" />
+
+                        <TextView
+                            android:id="@+id/destinationTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/chevron_down"
+                            android:drawablePadding="@dimen/sixteen_dp"
+                            android:text="@string/location_place_holder"
+                            android:textAllCaps="false"
+                            android:textColor="@color/dark_text"
+                            android:textSize="@dimen/eighteen_font_size" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/twenty_four_dp"
+                        android:text="@string/place_holder"
+                        android:textSize="@dimen/eighteen_font_size"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/twenty_four_dp"
+                        android:text="@string/place_holder"
+                        android:textSize="@dimen/eighteen_font_size"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/eight_dp"
+                app:cardCornerRadius="@dimen/eight_dp"
+                android:layout_height="wrap_content">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/dateLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/sixteen_dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/departure_date_text"
+                            android:textAllCaps="false"
+                            android:textColor="@color/nav_ash"
+                            android:textSize="@dimen/font_size_twelve" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/chevron_down"
+                            android:drawablePadding="@dimen/sixteen_dp"
+                            android:text="@string/date_place_holder"
+                            android:textAllCaps="false"
+                            android:textColor="@color/dark_text"
+                            android:textSize="@dimen/font_size_sixteen" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/timeLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/sixteen_dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/departure_time_text"
+                            android:textAllCaps="false"
+                            android:textColor="@color/nav_ash"
+                            android:textSize="@dimen/font_size_twelve" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableEnd="@drawable/chevron_down"
+                            android:drawablePadding="@dimen/sixteen_dp"
+                            android:text="@string/time_place_holder"
+                            android:textAllCaps="false"
+                            android:textColor="@color/dark_text"
+                            android:textSize="@dimen/font_size_sixteen" />
+
+                    </LinearLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/eight_dp"
+                app:cardCornerRadius="@dimen/eight_dp"
+                android:layout_height="wrap_content">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/sixteen_dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/passengers_text"
+                            android:textAllCaps="false"
+                            android:layout_marginStart="@dimen/eight_dp"
+                            android:textColor="@color/nav_ash"
+                            android:textSize="@dimen/font_size_twelve" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textAllCaps="false"
+                                android:layout_marginEnd="@dimen/eight_dp"
+                                android:textColor="@color/dark_text"
+                                android:textSize="@dimen/eighteen_font_size" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableEnd="@drawable/chevron_down"
+                                android:drawablePadding="@dimen/sixteen_dp"
+                                android:text="@string/passengers_text"
+                                android:textAllCaps="false"
+                                android:textColor="@color/dark_text"
+                                android:textSize="@dimen/font_size_sixteen" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="@dimen/two_hundred_dp"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/twenty_four_dp"
+                android:layout_marginBottom="@dimen/twenty_four_dp"
+                android:background="@drawable/green_button_background"
+                android:text="@string/search_text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_size_sixteen" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

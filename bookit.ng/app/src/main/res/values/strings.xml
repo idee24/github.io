@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">bookit.ng</string>
+    <string name="login_text">login</string>
+    <string name="password_text">password</string>
+    <string name="username_text">username</string>
+    <string name="login_error_text">Invalid Login Details!!..</string>
+    <string name="movies_error_text">Could\'nt find any movies!!..</string>
+    <string name="network_error_text">Network Error!!..</string>
+    <string name="travels_text">Travels</string>
+    <string name="hotels_text">Hotels</string>
+    <string name="entertainment_text">Entertainment</string>
+    <string name="vacations_text">Vacations</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="flights_text">Flights</string>
+    <string name="buses_text">Buses</string>
+    <string name="profile_icon_text">profile icon</string>
+    <string name="flights_icon_text">flights icon</string>
+    <string name="vacations_icon_text">vacations icon</string>
+    <string name="bus_icon_text">bus icon</string>
+    <string name="entertainment_icon_text">entertainment icon</string>
+    <string name="explore_your_deals_text">Explore Your Deals</string>
+    <string name="departure_from_text">Departure From</string>
+    <string name="location_place_holder">Abuja (FCT)</string>
+    <string name="route_icon">route icon</string>
+    <string name="arrival_at_text">Arrival At</string>
+    <string name="place_holder">ABJ</string>
+    <string name="back_icon_text">back icon</string>
+    <string name="search_bus_text">Search Bus</string>
+    <string name="search_text">Search</string>
+    <string name="departure_date_text">Departure Date</string>
+    <string name="date_place_holder">Monday, 14th Dec</string>
+    <string name="departure_time_text">Departure Time</string>
+    <string name="time_place_holder">7:00 AM</string>
+    <string name="passengers_text">Passengers</string>
+    <string name="chevron_icon">chevron Icon</string>
+    <string name="onwards_text">Onwards</string>
+    <string name="bus_fare_info_text">Bus Fare Info</string>
+    <string name="horizontal_line_text">horizontal line</string>
+    <string name="select_passenger_text">Select Passenger</string>
+    <string name="add_new_passenger_text">Add New Passenger</string>
+    <string name="cross_icon_text">cross_icon</string>
+    <string name="edit_icon_text">edit icon</string>
+    <string name="price_text">Price</string>
+    <string name="travel_details_text">Travel Details</string>
+    <string name="agree_text_long">I agree to the Terms and Conditions and Fare Rules</string>
+    <string name="proceed_to_pay_text">Proceed to Pay</string>
+    <string name="payment_text">Payment</string>
+    <string name="travel_listing_text">Travel Listing</string>
+</resources>

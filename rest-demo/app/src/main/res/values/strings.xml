@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">RESTDemo</string>
+    <string name="movie_title">Fight Club</string>
+    <string name="subtitle">Brad Pitt and Edward Norton in Fight Club (1999).</string>
+    <string name="description_text">A ticking-time-bomb insomniac and a slippery soap salesman channel
+        primal male aggression into a shocking new form of therapy. Their concept catches on,
+        with underground "fight clubs" forming in every town, until an eccentric gets in the way and
+        ignites an out-of-control spiral toward oblivion.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="passwordtext">Password</string>
+    <string name="login">Login</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="movie_title_place_holder">Movie Title</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="monday">Monday</string>
+    <string name="_12th_july">12th July</string>
+    <string name="period">Period</string>
+    <string name="_8am_9am">8am - 9am</string>
+    <string name="sciences">Sciences</string>
+    <string name="placeHolder">20</string>
+    <string name="unread_notifications_s">unread Notifications(s)</string>
+    <string name="attendance">Attendance</string>
+    <string name="line">Line</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="ss1a">SS1A</string>
+    <string name="_56">56%</string>
+    <string name="radio1">Radio1</string>
+    <string name="radio2">Radio2</string>
+    <string name="radio3">Radio3</string>
+    <string name="radio4">Radio4</string>
+    <string name="_0">0</string>
+    <string name="show_radio">Show Radio</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="ovye_anduwa">Ovye Anduwa</string>
+    <string name="date_picker">Date Picker</string>
+</resources>

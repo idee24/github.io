@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="twenty_four_dp">24dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="eighty_dp">80dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="two_hundred_dp">200dp</dimen>
+    <dimen name="font_size_twelve">12sp</dimen>
+    <dimen name="font_size_fourteen">14sp</dimen>
+    <dimen name="eighteen_font_size">18sp</dimen>
+    <dimen name="hundred_dp">100dp</dimen>
+    <dimen name="hundred_and_fifty_dp">150dp</dimen>
+    <dimen name="hundred_and_thirty_dp">130dp</dimen>
+    <dimen name="ninety_dp">90dp</dimen>
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="font_size_twenty_four">24sp</dimen>
+    <dimen name="font_size_sixteen">16sp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="font_size_twenty">20sp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="seventy_dp">70dp</dimen>
+    <dimen name="two_hundred_and_fifty_dp">250dp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+    <dimen name="font_size_eighteen">18sp</dimen>
+</resources>
