@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:design:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/64261b04915179f2f78ab981d6e0da6a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2897478871a755396cc298098fa38f71/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0283fe17dc11219369779c6d1b1876ca/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8c88f96b5c2e99cafc4105129cae8c57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/25cb5186844365223f924213179ce55a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/07190a0f82ce5d0b222b5159ca9fed2e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/733b3acb350e4cf8f6ae24829d0d939d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/80979f9189b7adf83d96ae969026f9e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e08f738aa25fdc7dfb22ad7ecf07d4dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89cfd905b92085793dc5e5990f32e064/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/99e74f17f8ce414346f0b0073e16efdc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/99e80184b76a19d1b82d00b2d6d6d990/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d432048eb49535907655f574eaab3ccd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3238e4576591ba2962d6f592bd5cedad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ef13fef03b4ac8724684ac7be0a6631/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aa0cbd9e93f23a8c3463a640cd7a99fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/35e98714edf1c8b4d2187b9fc5acd4c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cde3fbcdf8910a32dc6a9ba7ff6fb275/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a39e961bd1b3b68d182041b2282a230d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/8bdbaa331b9f2da0e24e424784606a45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/75cc2395b0f357ac7fb88c2042de2868/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b2b4b54a38b5d7d28971a4394c7f6eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fb60fd1a69caf606ce1ea68895bd6f31/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7a04ec61f4d9ad452e6e58f332b9900/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a4b98719797afa4c7def74158cdf7712/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/632467528469a0ef26dfd338e2cd0560/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/268ac943a105808b4e435f457fb13801/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9b8b7e0d9a14679351f6181cf02ef146/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/217ae712038e157b20f95043b2c773a8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/000672fafb983cd2f83bb8c8bfe862aa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b946163f7171f772076037e43fd52c3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c87b50d2b1122fecf869f232788bcdd9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3d2e64e580b4f95249b2374ce8d3dcac/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:design:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/64261b04915179f2f78ab981d6e0da6a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/64261b04915179f2f78ab981d6e0da6a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0283fe17dc11219369779c6d1b1876ca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0283fe17dc11219369779c6d1b1876ca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fb60fd1a69caf606ce1ea68895bd6f31/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fb60fd1a69caf606ce1ea68895bd6f31/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.gbabtech.beenhouse.activities.HomeActivity
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:12:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.gbabtech.beenhouse.activities.MenuActivity
+ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:19:9-70
+	android:name
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml:19:19-58
+uses-sdk
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/64261b04915179f2f78ab981d6e0da6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/64261b04915179f2f78ab981d6e0da6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2897478871a755396cc298098fa38f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2897478871a755396cc298098fa38f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0283fe17dc11219369779c6d1b1876ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0283fe17dc11219369779c6d1b1876ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8c88f96b5c2e99cafc4105129cae8c57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8c88f96b5c2e99cafc4105129cae8c57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/25cb5186844365223f924213179ce55a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/25cb5186844365223f924213179ce55a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/07190a0f82ce5d0b222b5159ca9fed2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/07190a0f82ce5d0b222b5159ca9fed2e/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/733b3acb350e4cf8f6ae24829d0d939d/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/733b3acb350e4cf8f6ae24829d0d939d/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/80979f9189b7adf83d96ae969026f9e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/80979f9189b7adf83d96ae969026f9e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e08f738aa25fdc7dfb22ad7ecf07d4dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/e08f738aa25fdc7dfb22ad7ecf07d4dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89cfd905b92085793dc5e5990f32e064/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/89cfd905b92085793dc5e5990f32e064/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/99e74f17f8ce414346f0b0073e16efdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/99e74f17f8ce414346f0b0073e16efdc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/99e80184b76a19d1b82d00b2d6d6d990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/99e80184b76a19d1b82d00b2d6d6d990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d432048eb49535907655f574eaab3ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d432048eb49535907655f574eaab3ccd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3238e4576591ba2962d6f592bd5cedad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/3238e4576591ba2962d6f592bd5cedad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ef13fef03b4ac8724684ac7be0a6631/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ef13fef03b4ac8724684ac7be0a6631/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aa0cbd9e93f23a8c3463a640cd7a99fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/aa0cbd9e93f23a8c3463a640cd7a99fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/35e98714edf1c8b4d2187b9fc5acd4c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/35e98714edf1c8b4d2187b9fc5acd4c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cde3fbcdf8910a32dc6a9ba7ff6fb275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/cde3fbcdf8910a32dc6a9ba7ff6fb275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a39e961bd1b3b68d182041b2282a230d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a39e961bd1b3b68d182041b2282a230d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/8bdbaa331b9f2da0e24e424784606a45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/8bdbaa331b9f2da0e24e424784606a45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/75cc2395b0f357ac7fb88c2042de2868/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/75cc2395b0f357ac7fb88c2042de2868/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b2b4b54a38b5d7d28971a4394c7f6eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6b2b4b54a38b5d7d28971a4394c7f6eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/adac907eee917b61fa5d84a22d36ea15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fb60fd1a69caf606ce1ea68895bd6f31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/fb60fd1a69caf606ce1ea68895bd6f31/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7a04ec61f4d9ad452e6e58f332b9900/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d7a04ec61f4d9ad452e6e58f332b9900/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a4b98719797afa4c7def74158cdf7712/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a4b98719797afa4c7def74158cdf7712/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/632467528469a0ef26dfd338e2cd0560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/632467528469a0ef26dfd338e2cd0560/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/268ac943a105808b4e435f457fb13801/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/268ac943a105808b4e435f457fb13801/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9b8b7e0d9a14679351f6181cf02ef146/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9b8b7e0d9a14679351f6181cf02ef146/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/217ae712038e157b20f95043b2c773a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/217ae712038e157b20f95043b2c773a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/000672fafb983cd2f83bb8c8bfe862aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/000672fafb983cd2f83bb8c8bfe862aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b946163f7171f772076037e43fd52c3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/3b946163f7171f772076037e43fd52c3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c87b50d2b1122fecf869f232788bcdd9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c87b50d2b1122fecf869f232788bcdd9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3d2e64e580b4f95249b2374ce8d3dcac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/blue-chip/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3d2e64e580b4f95249b2374ce8d3dcac/AndroidManifest.xml:20:5-44
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		ADDED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/blue-chip/AndroidStudioProjects/BeenHouse/app/src/main/AndroidManifest.xml

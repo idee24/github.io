@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Nov 18 09:47:31 WAT 2018
+1.base=/home/blue-chip/AndroidStudioProjects/BeenHouse/app/build/intermediates/transforms/dexMerger/debug/0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/home/blue-chip/AndroidStudioProjects/BeenHouse/app/build/intermediates/transforms/dexMerger/debug/1
+1.path=classes.dex
