@@ -1,5 +1,8 @@
 # Yerimah Idhanosi (Repositories)
 
+## Bash
+![alt text](https://github.com/idee24/github.io/blob/master/preview_images/bash.PNG)
+
 ## Bookingz
 ![alt text](https://github.com/idee24/github.io/blob/master/preview_images/bookingz.PNG)
 
